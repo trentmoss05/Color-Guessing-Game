@@ -1,5 +1,7 @@
 body {
   background: #232323;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 #container {
@@ -7,16 +9,30 @@ body {
   max-width: 600px;
 }
 
+#message {
+  display: inline-block;
+  width: 20%;
+}
+
 .square {
   margin: 1.66%;
   width: 30%;
-  background: purple;
+  background-color: purple;
   padding-bottom: 30%;
   float: left;
+  border-radius: 15%;
+  transition: background-color 0.5s;
 }
 
 h1 {
   color: white;
+  line-height: 1.1;
+  padding: 20px 0;
+  font-weight: normal;
+  text-align: center;
+  background-color: steelBlue;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 #stripe {
@@ -27,5 +43,28 @@ h1 {
 }
 
 .selected {
-  background-color: blue;
+  color: white;
+  background-color: steelBlue;
+}
+
+#colorDisplay {
+  font-size: 200%;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelBlue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  font-family: "Montserrat";
+  transition: all 0.25s;
+}
+
+button:hover {
+  color: white;
+  background-color: steelBlue;
 }
