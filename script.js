@@ -40,7 +40,7 @@ function setUpSquares() {
         h1.style.backgroundColor = clickedColor;
         resetButton.textContent = "Play Again?";
       } else {
-        this.style.backgroundColor = "#232323";
+        this.style.backgroundColor = "#939994";
         messageDisplay.textContent = "Try Again";
       }
     });
@@ -65,7 +65,7 @@ function reset() {
     }
     squares[i].style.backgroundColor = colors[i];
   }
-  h1.style.backgroundColor = "steelBlue";
+  h1.style.backgroundColor = "#077521";
 }
 
 resetButton.addEventListener("click", function() {
