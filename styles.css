@@ -1,5 +1,5 @@
 body {
-  background: #232323;
+  background: #939994;
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
@@ -12,6 +12,7 @@ body {
 #message {
   display: inline-block;
   width: 20%;
+  font-weight: bold;
 }
 
 .square {
@@ -20,7 +21,7 @@ body {
   background-color: purple;
   padding-bottom: 30%;
   float: left;
-  border-radius: 15%;
+  border-radius: 5%;
   transition: background-color 0.5s;
 }
 
@@ -30,7 +31,7 @@ h1 {
   padding: 20px 0;
   font-weight: normal;
   text-align: center;
-  background-color: steelBlue;
+  background-color: #077521;
   text-transform: uppercase;
   margin: 0;
 }
@@ -44,7 +45,7 @@ h1 {
 
 .selected {
   color: white;
-  background-color: steelBlue;
+  background-color: #077521;
 }
 
 #colorDisplay {
@@ -57,7 +58,7 @@ button {
   text-transform: uppercase;
   height: 100%;
   font-weight: 700;
-  color: steelBlue;
+  color: #077521;
   letter-spacing: 1px;
   font-size: inherit;
   font-family: "Montserrat";
@@ -67,5 +68,5 @@ button {
 
 button:hover {
   color: white;
-  background-color: steelBlue;
+  background-color: #077521;
 }
